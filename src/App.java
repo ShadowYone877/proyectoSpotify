@@ -1,9 +1,8 @@
-import Service.UserService;
-import UI.Menu;
+import Services.Service;
 
 public class App {
-    public static void main(String[] args) throws Exception {
-        UserService cp = new UserService();
-        cp.menu usuarios();
+    public static void main(String[] args) {
+        Service service = new Service();
+        service.menu();
     }
 }
